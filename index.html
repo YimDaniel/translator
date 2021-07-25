@@ -4,14 +4,13 @@
   <meta charset="UTF-8">
   <title>Transltion</title>
   <script async src="translate.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <span>
-    <textarea name="" id="before" cols="110" rows="30" placeholder="Input English only" onkeyup="translator()"></textarea>
-  </span>
-  <span>
-    <textarea name="" id="after" cols="110" rows="30"></textarea>
-  </span><br>
-  <input type="button" value="Clear" onclick="clear_area()">
+  <div id="grid">
+    <textarea class="flex-center" id="before" cols="110" rows="30" placeholder="Input English only" onkeyup="translator()"></textarea>
+    <textarea class="flex-center" id="after" cols="110" rows="30"></textarea><br>
+    <input type="button" value="Clear" onclick="clear_area()" class="flex-center">
+  </div>
 </body>
 </html>

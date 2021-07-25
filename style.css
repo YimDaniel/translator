@@ -1,0 +1,20 @@
+#grid {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.flex-center {
+  margin: 20px;
+}
+textarea {
+  font-size: 14px;
+  border: 1px solid rgb(53, 53, 53);
+  border-radius: 4px;
+}
+input {
+  width: 130px;
+  height: 70px;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(53, 53, 53);
+}
