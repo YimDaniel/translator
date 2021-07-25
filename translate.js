@@ -1,3 +1,5 @@
+/* TEK version 1.1.0 */
+
 let arr_alphabet = new Array(26); // 알파벳 배열
 let hangul = 'ㅐ,ㅂ,ㅋ,ㄷ,ㅔ,ㅍ,ㄱ,ㅎ,ㅣ,ㅈ,ㅋ,ㄹ,ㅁ,ㄴ,ㅏ,ㅍ,ㅋ,ㄹ,ㅆ,ㅌ,ㅓ,ㅂ,ㅜ,ㅋㅅ,ㅏㅣ,ㅈ';
 let arr_korean = hangul.split(','); // 한글 배열
